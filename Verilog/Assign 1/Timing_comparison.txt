@@ -1,0 +1,28 @@
+Carry Look Ahead (CLK - 6ns)
+
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+  TS_clk = PERIOD TIMEGRP "CLK" 6 ns HIGH 5 | SETUP       |     2.018ns|     3.982ns|       0|           0
+  0%                                        | HOLD        |     0.154ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+Timing - 6ns - 0.154ns = 5.846ns
+
+Ripple Carry Adder (CLK - 6ns)
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_clk = PERIOD TIMEGRP "CLK" 6 ns HIGH 5 | SETUP       |    -0.609ns|     6.609ns|       4|        1491
+  0%                                        | HOLD        |     0.132ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+
+timing - 6ns - 0.132ns = 5.868ns
+
+
+Carry Look Ahead is faster as we know it is able to compute the carry that is to be provided to each seperate bit simultaneously while Ripple Carry Adder has to wait for all of the previous to bit processed to get the carry.
+
