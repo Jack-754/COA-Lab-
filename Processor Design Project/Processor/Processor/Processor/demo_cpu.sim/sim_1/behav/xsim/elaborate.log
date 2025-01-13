@@ -1,0 +1,56 @@
+Vivado Simulator v2024.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_8 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot processor_tb_behav xil_defaultlib.processor_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.decoder_3to8
+Compiling module xil_defaultlib.time_step
+Compiling module xil_defaultlib.instruction_decoder
+Compiling module xil_defaultlib.control_unit
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_output_stage(...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.instruction_mem
+Compiling module xil_defaultlib.PIPO_module
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_8.blk_mem_gen_v8_4_8(C_FAMILY="art...
+Compiling module xil_defaultlib.data_mem
+Compiling module xil_defaultlib.CLA_4_bit_augmented
+Compiling module xil_defaultlib.look_ahead_unit
+Compiling module xil_defaultlib.CLA_16_bit_lookahead
+Compiling module xil_defaultlib.add_module
+Compiling module xil_defaultlib.comparator
+Compiling module xil_defaultlib.computational_block
+Compiling module xil_defaultlib.MUX_2to1
+Compiling module xil_defaultlib.decoder_16bit
+Compiling module xil_defaultlib.register_bank
+Compiling module xil_defaultlib.signextend
+Compiling module xil_defaultlib.complement_module
+Compiling module xil_defaultlib.and_module
+Compiling module xil_defaultlib.or_module
+Compiling module xil_defaultlib.lui_module
+Compiling module xil_defaultlib.xor_module
+Compiling module xil_defaultlib.reverse_bits
+Compiling module xil_defaultlib.mux2to1
+Compiling module xil_defaultlib.mux32_1
+Compiling module xil_defaultlib.sll_module_default
+Compiling module xil_defaultlib.slr_module_default
+Compiling module xil_defaultlib.sar_module_default
+Compiling module xil_defaultlib.full_adder
+Compiling module xil_defaultlib.adder_2bit
+Compiling module xil_defaultlib.adder_3bit
+Compiling module xil_defaultlib.hamm
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.MUX_4to1
+Compiling module xil_defaultlib.processor
+Compiling module xil_defaultlib.processor_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot processor_tb_behav

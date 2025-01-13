@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-3" LaunchTime="1731403634" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/integrate.dcp">
+  <File Type="PA-TCL" Name="processor.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="processor_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="processor_reports.tcl"/>
+  <File Type="RDS-RDS" Name="processor.vds"/>
+  <File Type="RDS-UTIL" Name="processor_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="processor_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="processor.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="processor_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="processor_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/ALU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/ALU.v"/>
+        <Attr Name="ImportTime" Val="1727859735"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Q2/CLA_16_bit_lookahead.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/Q2/CLA_16_bit_lookahead.v"/>
+        <Attr Name="ImportTime" Val="1725898626"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Q2/CLA_4_bit_augmented.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/Q2/CLA_4_bit_augmented.v"/>
+        <Attr Name="ImportTime" Val="1725872883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/MUX_2to1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/MUX_2to1.v"/>
+        <Attr Name="ImportTime" Val="1725726277"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX_4to1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/PIPO_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/PIPO_module.v"/>
+        <Attr Name="ImportTime" Val="1726044077"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/add_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/add_module.v"/>
+        <Attr Name="ImportTime" Val="1725898664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/adder_2bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/adder_2bit.v"/>
+        <Attr Name="ImportTime" Val="1725873976"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/adder_3bit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/adder_3bit.v"/>
+        <Attr Name="ImportTime" Val="1725873973"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/and_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/and_module.v"/>
+        <Attr Name="ImportTime" Val="1725445227"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/comparator.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/complement_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/complement_module.v"/>
+        <Attr Name="ImportTime" Val="1725446171"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/computational_block.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control_unit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decoder_16bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/decoder_8bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Q1/full_adder.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/Q1/full_adder.v"/>
+        <Attr Name="ImportTime" Val="1725873061"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/hamm.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/hamm.v"/>
+        <Attr Name="ImportTime" Val="1725874861"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/instruction_decoder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/Q2/look_ahead_unit.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/Q2/look_ahead_unit.v"/>
+        <Attr Name="ImportTime" Val="1725872883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/lui_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/lui_module.v"/>
+        <Attr Name="ImportTime" Val="1727857432"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ALU/mux_2_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/ALU/mux_2_1.v"/>
+        <Attr Name="ImportTime" Val="1725932980"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/shift/mux_32_1.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/shift/mux_32_1.v"/>
+        <Attr Name="ImportTime" Val="1726052482"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/or_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/or_module.v"/>
+        <Attr Name="ImportTime" Val="1725445333"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/register_bank.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/register_bank.v"/>
+        <Attr Name="ImportTime" Val="1727702823"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ALU/reverse_bits.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/ALU/reverse_bits.v"/>
+        <Attr Name="ImportTime" Val="1726052419"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ALU/sar_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/ALU/sar_module.v"/>
+        <Attr Name="ImportTime" Val="1726052656"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/signextend.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ALU/sll_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/ALU/sll_module.v"/>
+        <Attr Name="ImportTime" Val="1726052468"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/ALU/slr_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/imports/ALU/slr_module.v"/>
+        <Attr Name="ImportTime" Val="1726052581"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/time_step.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/xor_module.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/xor_module.v"/>
+        <Attr Name="ImportTime" Val="1725445394"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/processor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/clock_div.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/integrate.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/add_one.v">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="C:/Users/Asus/OneDrive - iitkgp.ac.in/Desktop/Test/ALU/ALU.srcs/sources_1/new/add_one.v"/>
+        <Attr Name="ImportTime" Val="1725701215"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/instruction_mem/instructions.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/New folder/a.coe">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Coding/C/New folder/a.coe"/>
+        <Attr Name="ImportTime" Val="1730285248"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/data_mem/data_mem.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="processor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/intrun.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/integrate.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="data_mem"/>
+  <BlockFileSet Type="BlockSrcs" Name="instruction_mem"/>
+</GenRun>
